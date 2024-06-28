@@ -1,0 +1,7 @@
+{
+  "name": "danprod202",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

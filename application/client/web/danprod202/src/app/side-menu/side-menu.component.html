@@ -1,0 +1,141 @@
+<div class="side-menu" [ngClass]="{'collapsed': isCollapsed}" style="height: 100vh;background: linear-gradient(0deg, #01B6FB 0%, #0867FA 100%);">
+    <div class="menu-content" [ngClass]="{'collapsed': isCollapsed}">
+        <ul class="nav flex-column">
+            <div class="sidebar-logo p-3"> <a class="d-flex justify-content-center align-items-center">
+                    <img src="./assets/img/gepimage.png" *ngIf="isExpanded" alt="logo" height="40" width="160">
+                    <img src="./assets/img/favicon.ico" *ngIf="!isExpanded" alt="logo" height="40" width="40">
+                </a>
+
+            </div>
+            <div class="mt-4">
+                <div id="mainmenu" class="">
+                    <div id="icrvgp" class="cell gpd-clm" *ngIf='userId!=null'>
+                        <div id="i6vd27" class="gdp-row gpd-grid" *ngIf='userId!=null'>
+                            <div id="inlo1l" class="cell gpd-clm" *ngIf='userId!=null'> <i id="iyxitk" class="fa fa-home" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="gpd-text" *ngIf='userId!=null' [routerLink]="['/casa']">{{'source.Casa' | i18next}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="icrvgp" class="cell gpd-clm" *ngIf='userId!=null'>
+                        <div id="i6vd27" class="gdp-row gpd-grid" *ngIf='userId!=null'>
+                            <div id="inlo1l" class="cell gpd-clm" *ngIf='userId!=null'> <i id="iyxitk" class="fa fa-home" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="gpd-text" *ngIf='userId!=null' [routerLink]="['/administrador']">{{'source.administrador' | i18next}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="icrvgp" class="cell gpd-clm" *ngIf='userId!=null'>
+                        <div id="i6vd27" class="gdp-row gpd-grid" *ngIf='userId!=null'>
+                            <div id="inlo1l" class="cell gpd-clm" *ngIf='userId!=null'> <i id="iyxitk" class="fa fa-home" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="gpd-text" *ngIf='userId!=null' [routerLink]="['/cerrar sesión']">{{'source.cerrar sesión' | i18next}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="icrvgp" class="cell gpd-clm" *ngIf='userId!=null'>
+                        <div id="i6vd27" class="gdp-row gpd-grid" *ngIf='userId!=null'>
+                            <div id="inlo1l" class="cell gpd-clm" *ngIf='userId!=null'> <i id="iyxitk" class="fa fa-home" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="gpd-text" *ngIf='userId!=null' [routerLink]="['/iniciar sesión']">{{'source.iniciar sesión' | i18next}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="icrvgp" class="cell gpd-clm" *ngIf='userId!=null'>
+                        <div id="i6vd27" class="gdp-row gpd-grid" *ngIf='userId!=null'>
+                            <div id="inlo1l" class="cell gpd-clm" *ngIf='userId!=null'> <i id="iyxitk" class="fa fa-home" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="gpd-text" *ngIf='userId!=null' [routerLink]="['/autorización']">{{'source.autorización' | i18next}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="icrvgp" class="cell gpd-clm" *ngIf='userId!=null'>
+                        <div id="i6vd27" class="gdp-row gpd-grid" *ngIf='userId!=null'>
+                            <div id="inlo1l" class="cell gpd-clm" *ngIf='userId!=null'> <i id="iyxitk" class="fa fa-home" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="gpd-text" *ngIf='userId!=null' [routerLink]="['/administrar roles']">{{'source.administrar roles' | i18next}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="icrvgp" class="cell gpd-clm" *ngIf='userId!=null'>
+                        <div id="i6vd27" class="gdp-row gpd-grid" *ngIf='userId!=null'>
+                            <div id="inlo1l" class="cell gpd-clm" *ngIf='userId!=null'> <i id="iyxitk" class="fa fa-home" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="gpd-text" *ngIf='userId!=null' [routerLink]="['/administrar usuarios']">{{'source.administrar usuarios' | i18next}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="icrvgp" class="cell gpd-clm" *ngIf='userId!=null'>
+                        <div id="i6vd27" class="gdp-row gpd-grid" *ngIf='userId!=null'>
+                            <div id="inlo1l" class="cell gpd-clm" *ngIf='userId!=null'> <i id="iyxitk" class="fa fa-home" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="gpd-text" *ngIf='userId!=null' [routerLink]="['/gestionar el control']">{{'source.gestionar el control' | i18next}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="icrvgp" class="cell gpd-clm" *ngIf='userId!=null'>
+                        <div id="i6vd27" class="gdp-row gpd-grid" *ngIf='userId!=null'>
+                            <div id="inlo1l" class="cell gpd-clm" *ngIf='userId!=null'> <i id="iyxitk" class="fa fa-home" aria-hidden="true"></i>
+
+                            </div>
+                            <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="gpd-text" *ngIf='userId!=null' [routerLink]="['/sef pantalla']">{{'source.sef pantalla' | i18next}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <li>
+                        <div id="icrvgp" class="cell gpd-clm">
+                            <div id="i6vd27" class="gdp-row gpd-grid">
+                                <div id="inlo1l" class="cell gpd-clm"> <i id="iyxitk" class="fa fa-language" aria-hidden="true"></i>
+
+                                </div>
+                                <div id="iytw4t" class="cell gpd-clm"> <a href="#translator" data-toggle="collapse" aria-expanded="false" id="i9imej"
+                                    class="dropdown-toggle text">
+                                                {{'source.selectLanguage' | i18next }} </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="collapse list-unstyled" id="translator">
+                            <li *ngFor="let lang of languages">
+                                <div id="icrvgp" class="cell gpd-clm">
+                                    <div id="i6vd27" class="gdp-row gpd-grid">
+                                        <div id="iytw4t" class="cell gpd-clm"> <a id="i9imej" class="text" (click)='confirmLangModel(lang)'> {{'languages.' + lang | i18nextCap}}</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="" style="position: absolute;bottom: 0;">
+    <li *ngIf="isExpanded" (click)="toggleMenu()"> <i class="fa fa-angle-double-right" style="color: #ffff;margin-right: 5px;"></i>
+Open</li>
+    <li
+    *ngIf="!isExpanded" (click)="toggleMenu()"> <i class="fa fa-angle-double-right" style="color: #ffff;margin-right: 5px;"></i>
+
+        </li>
+</div>
+</ul>
+</div>
+</div>
